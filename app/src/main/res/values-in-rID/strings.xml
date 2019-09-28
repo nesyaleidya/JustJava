@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JustJava</string>
+    <string name="TOPPINGS">Toping</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="thank_you">Terima Kasih</string>
+    <string name="hello_world">Halo Dunia</string>
+    <string name="chocolate">Coklat</string>
+    <string name="initial_quantity_value">2</string>
+    <string name="name">"Nama : "</string>
+    <string name="order_now">Pesan Sekarang</string>
+    <string name="order_summary_chocolate">Tambah Krim : </string>
+    <string name="order_summary_name">"Nama : "</string>
+    <string name="order_summary_price">Total : </string>
+    <string name="order_summary_quantity">Kuantitas :</string>
+    <string name="order_summary_whippedcream">Tambah Coklat : </string>
+    <string name="price">Harga</string>
+    <string name="quantity">Kuantitas</string>
+    <string name="whipped_cream">Krim</string>
+</resources>
