@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void increment(View view){//perintah tombol tambah
         if(quantity==100){
-            Toast.makeText(this,"pesanan maximal 100",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Maximal 100",Toast.LENGTH_SHORT).show();
             return;
         }
         quantity = quantity+1 ;
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void decrement(View view){//perintah tombol tambah
         if (quantity==1){
-            Toast.makeText(this,"pesanan minimal 1",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Minimal 1",Toast.LENGTH_SHORT).show();
             return;
         }
         quantity = quantity -1;
@@ -99,11 +99,11 @@ public class MainActivity extends AppCompatActivity {
         return quantity * harga;
     }
     private String createOrderSummary(int price, String name, boolean addChocolate, boolean addWhippedCream) {//hasil pemesanan
-        String pricemessage= getString(R.string.order_summary_name, name ) + name;
-        pricemessage+="\n" + getString(R.string.order_summary_whippedcream, addWhippedCream) + addWhippedCream;
-        pricemessage+="\n" + getString(R.string.order_summary_chocolate, addChocolate) + addChocolate;
-        pricemessage+="\n" + getString(R.string.order_summary_quantity, quantity) + quantity;
-        pricemessage+="\n" + getString(R.string.order_summary_price, price) + "$" + price;
+        String pricemessage= getString(R.string.order_summary_name ) + name;
+        pricemessage+="\n" + getString(R.string.order_summary_whippedcream) + addWhippedCream;
+        pricemessage+="\n" + getString(R.string.order_summary_chocolate) + addChocolate;
+        pricemessage+="\n" + getString(R.string.order_summary_quantity) + quantity;
+        pricemessage+="\n" + getString(R.string.order_summary_price)  + price;
         pricemessage+="\n" + getString(R.string.thank_you) ;
         return  pricemessage;
     }

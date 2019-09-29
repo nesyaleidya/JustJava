@@ -12,11 +12,11 @@
     <string name="whipped_cream">Whipped Cream</string>
     <string name="price">PRICE</string>
 
-    <string name="order_summary_name">Name : <xliff:g id="name" example="Amy">%s</xliff:g> </string>
-    <string name="order_summary_whippedcream">"Add Chocolate ?  <xliff:g example="true" id="addWhippedCream">%b</xliff:g> "</string>
-    <string name="order_summary_chocolate">"Add Whipped Cream ?  <xliff:g example="true" id="addChocolate">%b</xliff:g> "</string>
-    <string name="order_summary_quantity">Quantity : <xliff:g id="quantity" example="2">%d</xliff:g> </string>
-    <string name="order_summary_price">Total : <xliff:g id="price" example="$10">%s</xliff:g> </string>
+    <string name="order_summary_name">Name :  <xliff:g id="name" example="Amy"></xliff:g></string>
+    <string name="order_summary_whippedcream">"Add Chocolate = <xliff:g example="true" id="addWhippedCream"></xliff:g> "</string>
+    <string name="order_summary_chocolate">Add Whipped Cream :  <xliff:g example="true" id="addChocolate"></xliff:g></string>
+    <string name="order_summary_quantity">Quantity : <xliff:g id="quantity" example="2"></xliff:g> </string>
+    <string name="order_summary_price">"Total : <xliff:g example="$10" id="price">$</xliff:g> "</string>
 
 
 
